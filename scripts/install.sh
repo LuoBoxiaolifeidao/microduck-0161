@@ -149,7 +149,7 @@ UNIT_DIR=/etc/systemd/system
 # Public keys expected in the image. All three, not just the one that signs today: a
 # robot verifies only against the set baked into it, so this is the single chance to make
 # key rotation possible without re-flashing by hand.
-KEYS="release-1.pub release-2.pub release-3.pub"
+KEYS="release-1.pub release-2.pub release-3.pub mine-release.pub"
 
 # ── helpers ──────────────────────────────────────────────────────────────────
 
